@@ -136,7 +136,7 @@ conda install keras
 
 ### Comment utiliser Dropout pour éviter le surentraînement ?
 
-J'ai ajouté un template de code qui teste deux réseaux de neurones sur le jeu de données utilisé dans le projet 1.
+J'ai ajouté un template de code qui teste deux réseaux de neurones sur le jeu de données utilisé dans le projet 1 ->
 [Overfit](https://github.com/madysemega/Deeprojects/blob/master/Project%201%20-%20Artificial_Neural_Networks/Overfit.ipynb)
 
 Le premier réseau utilise beaucoup de neurones, ce qui cause le surentraînement qu'on remarque en comparant la précision sur les jeux d'entraînement et de test :
