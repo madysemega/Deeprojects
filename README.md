@@ -1,12 +1,12 @@
 Ce repo contient quelques projets de deeplearning implémentés dans un but d'apprentissage à l'aide de `tensorflow`, `keras`, et `PyTorch`.
 
 1. [Installation des modules](#installation-des-modules)
-2. [Projet 1 - ANN](#partie-1-ann)
-3. [Projet 2 - CNN](#partie-2-cnn)
-4. [Projet 3 - RNN](#partie-3-rnn)
-5. [Projet 4 - SOM](#partie-4-som)
-6. [Projet 5 - BM](#partie-5-bm)
-7. [Projet 6 - AE](#partie-6-ae)
+2. [Projet 1 - ANN](#projet-1-ann)
+3. [Projet 2 - CNN](#projet-2-cnn)
+4. [Projet 3 - RNN](#projet-3-rnn)
+5. [Projet 4 - SOM](#projet-4-som)
+6. [Projet 5 - BM](#projet-5-bm)
+7. [Projet 6 - AE](#projet-6-ae)
 ## Installation des modules
 
 Après avoir installé [Anaconda](https://anaconda.org/), suivre les instructions suivantes.
