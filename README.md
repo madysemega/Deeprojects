@@ -33,7 +33,7 @@ conda install keras
 conda update --all
 ```
 
-## Partie 1 - ANN
+## Projet 1 - ANN
 
 Le premier projet utilise un réseau de neurones artificiel utilisé pour prédire la probabilité de churn d'un panel de clients.
 
@@ -45,7 +45,7 @@ Le premier projet utilise un réseau de neurones artificiel utilisé pour prédi
 * Andrew Trask, 2015, [A Neural Network in 13 lines of Python (Part 2 – Gradient Descent)](https://iamtrask.github.io/2015/07/27/python-network-part2/)
 * Michael Nielsen, 2015, [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/chap2.html)
 
-## Partie 2 - CNN
+## Projet 2 - CNN
 
 Le deuxième projet propose l'utilisation d'un réseau de neurones à convolution pour classifier des images de chats et de chiens.
 
@@ -60,7 +60,7 @@ Le deuxième projet propose l'utilisation d'un réseau de neurones à convolutio
 * Rob DiPietro, 2016, [A Friendly Introduction to Cross-Entropy Loss](https://rdipietro.github.io/friendly-intro-to-cross-entropy-loss/)
 * Peter Roelants, 2016, [How to implement a neural network Intermezzo 2](http://peterroelants.github.io/posts/neural_network_implementation_intermezzo02/)
 
-## Partie 3 - RNN
+## Projet 3 - RNN
 
 Le troisième projet vous apprend comment prédire la direction du prix d'une action grace aux réseaux de neurones récurrents.
 
@@ -78,7 +78,7 @@ Le troisième projet vous apprend comment prédire la direction du prix d'une ac
 * Klaus Greff, 2015, [LSTM: A Search Space Odyssey](https://arxiv.org/pdf/1503.04069.pdf)
 * Xavier Glorot, 2011, [Deep sparse rectifier neural networks](http://jmlr.org/proceedings/papers/v15/glorot11a/glorot11a.pdf)
 
-## Partie 4 - SOM
+## Projet 4 - SOM
 
 Le quatrième projet introduit les cartes auto-adaptatives pour détecter la fraude.
 
@@ -88,7 +88,7 @@ Le quatrième projet introduit les cartes auto-adaptatives pour détecter la fra
 * Mat Buckland, 2004?, [Kohonen's Self Organizing Feature Maps](http://www.ai-junkie.com/ann/som/som1.html)
 * Nadieh Bremer, 2003, [SOM – Creating hexagonal heatmaps with D3.js](https://www.visualcinnamon.com/2013/07/self-organizing-maps-creating-hexagonal.html)
 
-## Partie 5 - BM
+## Projet 5 - BM
 
 Le cinquième projet utilise les Machines de Boltzmann pour créer un système de recommandation
 
@@ -102,7 +102,7 @@ Le cinquième projet utilise les Machines de Boltzmann pour créer un système d
 * Geoffrey Hinton, 1995, [The wake-sleep algorithm for unsupervised neural networks](http://www.gatsby.ucl.ac.uk/~dayan/papers/hdfn95.pdf)
 * Ruslan Salakhutdinov, 2009?, [Deep Boltzmann Machines](http://www.utstat.toronto.edu/~rsalakhu/papers/dbm.pdf)
 
-## Partie 6 - AE
+## Projet 6 - AE
 
 Le sixième projet utilise les auto-encodeurs empilés, une technique avancée utilisée lors de la compétition Netflix.
 
@@ -134,17 +134,10 @@ conda install tensorflow-gpu
 conda install keras
 ```
 
-## Could not find a version that satisfies tensorflow==1.9.0
-
-Si vous obtenez ce message d'erreur, c'est vraisemblablement parce que vous utilisez Python 3.7.
-
-Tensorflow n'est pas compatible avec Python 3.7 à l'heure actuelle.
-
-C'est pourquoi les instructions d'installation prévoient de créer un environnement dans lequel on utilise Python 3.6. Assurez-vous de bien suivre les instructions à la lettre.
-
 ### Comment utiliser Dropout pour éviter le surentraînement ?
 
 J'ai ajouté un template de code qui teste deux réseaux de neurones sur le jeu de données utilisé dans le projet 1.
+[Overfit](https://github.com/madysemega/Deeprojects/blob/master/Project%201%20-%20Artificial_Neural_Networks/Overfit.ipynb)
 
 Le premier réseau utilise beaucoup de neurones, ce qui cause le surentraînement qu'on remarque en comparant la précision sur les jeux d'entraînement et de test :
 
