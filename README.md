@@ -47,7 +47,7 @@ Le premier projet utilise un réseau de neurones artificiel utilisé pour prédi
 
 ## Projet 2 - CNN
 
-Le deuxième projet propose l'utilisation d'un réseau de neurones à convolution pour classifier des images de chats et de chiens.
+Le deuxième projet utilise un réseau de neurones à convolution pour classifier des images de chats et de chiens.
 
 **References et lectures utiles:**
 
@@ -62,7 +62,7 @@ Le deuxième projet propose l'utilisation d'un réseau de neurones à convolutio
 
 ## Projet 3 - RNN
 
-Le troisième projet vous apprend comment prédire la direction du prix d'une action grace aux réseaux de neurones récurrents.
+Le troisième projet utilise les réseaux de neurones récurrents pour prédire la direction du prix d'une action.
 
 **References et lectures utiles:**
 
@@ -80,7 +80,7 @@ Le troisième projet vous apprend comment prédire la direction du prix d'une ac
 
 ## Projet 4 - SOM
 
-Le quatrième projet introduit les cartes auto-adaptatives pour détecter la fraude.
+Le quatrième projet utilise les cartes auto-adaptatives pour détecter la fraude.
 
 **References et lectures utiles:**
 
